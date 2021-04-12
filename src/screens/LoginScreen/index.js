@@ -46,6 +46,7 @@ function LoginScreen() {
                 </button>
               </form>
             </div>
+            <h3>To go to the site Please Press Button GET STARTED</h3>
           </>
         )}
       </div>

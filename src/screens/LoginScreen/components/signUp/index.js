@@ -40,6 +40,9 @@ function SignUpScreen() {
     <div className={s.signupScreen}>
       <form>
         <h1>Sign In</h1>
+        <h3 style={{ marginBottom: '15px' }}>
+          Please write test@gmail.com / password: qweqwe
+        </h3>
         <input ref={emailRef} type='email' placeholder='Email' />
         <input ref={passwordRef} type='password' placeholder='Password' />
         <button type='submit' onClick={signIn}>
